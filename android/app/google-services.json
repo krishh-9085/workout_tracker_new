@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "168379677299",
+    "project_id": "workouttracker-261b6",
+    "storage_bucket": "workouttracker-261b6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:168379677299:android:60ee2062492d8fdb09c806",
+        "android_client_info": {
+          "package_name": "com.example.workout_tracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "168379677299-4kb93958h6nshc97eu8n0dd5borpv22p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAv1o-bvP_2axOJzOrNnSRDcO0xW3_Ab-4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "168379677299-4kb93958h6nshc97eu8n0dd5borpv22p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:168379677299:android:756c6800aefd0ecd09c806",
+        "android_client_info": {
+          "package_name": "com.example.workout_tracker_new"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "168379677299-0mvm6oihgm3kpiae49uri0rttv69gdfg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.workout_tracker_new",
+            "certificate_hash": "14f10055aaaea4a47e64d318e661e30baab7deb5"
+          }
+        },
+        {
+          "client_id": "168379677299-4kb93958h6nshc97eu8n0dd5borpv22p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAv1o-bvP_2axOJzOrNnSRDcO0xW3_Ab-4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "168379677299-4kb93958h6nshc97eu8n0dd5borpv22p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

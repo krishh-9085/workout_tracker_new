@@ -111,7 +111,7 @@ class _UpperBodyScreenState extends State<UpperBodyScreen> {
             Container(
               padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
               decoration: BoxDecoration(
-                color: theme.colorScheme.surfaceVariant,
+                color: theme.colorScheme.surfaceContainerHighest,
                 borderRadius: BorderRadius.circular(16),
                 boxShadow: [
                   BoxShadow(
@@ -268,7 +268,7 @@ class _UpperBodyScreenState extends State<UpperBodyScreen> {
     child: Container(
       margin: const EdgeInsets.symmetric(vertical: 8),
       decoration: BoxDecoration(
-        color: theme.colorScheme.surfaceVariant,
+        color: theme.colorScheme.surfaceContainerHighest,
         borderRadius: BorderRadius.circular(16),
         boxShadow: [
           BoxShadow(
@@ -281,8 +281,8 @@ class _UpperBodyScreenState extends State<UpperBodyScreen> {
       child: ClipRRect(
         borderRadius: BorderRadius.circular(16),
         child: ExpansionTile(
-          collapsedBackgroundColor: theme.colorScheme.surfaceVariant,
-          backgroundColor: theme.colorScheme.surfaceVariant,
+          collapsedBackgroundColor: theme.colorScheme.surfaceContainerHighest,
+          backgroundColor: theme.colorScheme.surfaceContainerHighest,
           iconColor: theme.colorScheme.primary,
           collapsedIconColor: theme.colorScheme.primary,
           tilePadding: const EdgeInsets.symmetric(horizontal: 20, vertical: 12),

@@ -13,7 +13,7 @@ class WorkoutHistoryScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     final box = Hive.box<WorkoutModel>('workouts');
     final theme = Theme.of(context);
-    String _formatDuration(int seconds) {
+    String formatDuration(int seconds) {
       final minutes = seconds ~/ 60;
       final remainingSeconds = seconds % 60;
       if (minutes > 0) {
@@ -107,7 +107,7 @@ class WorkoutHistoryScreen extends StatelessWidget {
                             ),
                           ),
                           subtitle: Text(
-                            '${_formatDuration(workout.duration)} • ${DateFormat.yMMMd().format(workout.date)}',
+                            '${formatDuration(workout.duration)} • ${DateFormat.yMMMd().format(workout.date)}',
                             style: GoogleFonts.poppins(
                               fontSize: 13,
                               color: theme.textTheme.bodyMedium?.color,

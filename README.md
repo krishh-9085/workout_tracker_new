@@ -42,3 +42,12 @@ A beautifully designed and user-friendly **Workout Tracker** built with Flutter.
 
 ---
 
+## ⏱️ Time Spent
+
+**Approx 6-8 hours over 2 days**, including:
+
+- 🧠 UI planning & theming  
+- 🔐 Firebase + Google Sign-In setup  
+- ⏲️ Timer functionality + Hive local storage integration  
+- 🧪 Widget testing, release builds, and APK signing  
+- 🎨 UI polishing (custom icons, reusable widgets, sliders)  
